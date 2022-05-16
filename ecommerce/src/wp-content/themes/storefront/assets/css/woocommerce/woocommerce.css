@@ -2843,12 +2843,12 @@ dl.variation dd {
 	.left-sidebar:not(.page-template-template-fullwidth-php) .woocommerce-MyAccount-content {
 		width: 76.4705882353%;
 		float: left;
-		margin-right: 5.8823529412%
+		margin-left: 5.8823529412%
 	}
 
 	.left-sidebar:not(.page-template-template-fullwidth-php) .woocommerce-MyAccount-navigation {
 		width: 17.6470588235%;
-		float: right;
+		float: left;
 		margin-right: 0
 	}
 

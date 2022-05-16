@@ -2011,6 +2011,7 @@ button.menu-toggle::after {
 	float: left;
 	text-align: center;
 	margin: 0 26px;
+	width: 20%;
 }
 
 #icons-welcome .icons-item h3 {
@@ -2057,6 +2058,27 @@ button.menu-toggle::after {
 #footer .column li,
 #footer .column a {
 	color: #333;
+}
+
+#footer .column li a i {
+	font-size: 40px;
+	margin: 0 5px 0 0;
+}
+
+#footer .column li.social-midia {
+	margin-top: 10px;
+}
+
+#footer .column li a i.fa-facebook-square {
+	color: #1877f2;
+}
+
+#footer .column li a i.fa-instagram-square {
+	color: #E7503D;
+}
+
+#footer .column li a i.fa-whatsapp-square {
+	color: #69C451;
 }
 
 .storefront-primary-navigation a {

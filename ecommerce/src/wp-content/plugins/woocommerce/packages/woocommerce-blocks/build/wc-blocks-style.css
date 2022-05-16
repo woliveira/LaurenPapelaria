@@ -3472,7 +3472,6 @@ ul .wc-block-grid__product {
 }
 
 @media(min-width:481px)and (max-width:600px) {
-
 	.wc-block-grid.has-2-columns .wc-block-grid__product {
 		flex: 1 0 50%;
 		max-width: 50%;
