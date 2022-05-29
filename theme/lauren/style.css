@@ -1117,6 +1117,10 @@ header.site-header .user-my-cart a .cart-contents-count {
 	margin-top: 30px;
 }
 
+#primary {
+	margin-bottom: 20px;
+}
+
 /* Produto */
 
 #content-wraper .products {
@@ -1269,10 +1273,10 @@ ul.products li.product a img,
     font-weight: bold;
 }
 
-.woocommerce .col2-set .col-2,
-.woocommerce-page .col2-set .col-2,
-.woocommerce .col2-set .col-1,
-.woocommerce-page .col2-set .col-1 {
+.woocommerce-checkout .woocommerce .col2-set .col-2,
+.woocommerce-checkout .woocommerce-page .col2-set .col-2,
+.woocommerce-checkout .woocommerce .col2-set .col-1,
+.woocommerce-checkout .woocommerce-page .col2-set .col-1 {
 	width: 100% !important;
 	float: none !important;
 }
@@ -1291,8 +1295,21 @@ ul.products li.product a img,
 
 /* Related Products */
 
-#related-products {
-	margin: 20px 0 50px 0;
+.woocommerce .related {
+	margin: 20px 0 0 0;
+}
+
+.woocommerce .related h2 {
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+footer h3,
+.woocommerce .related h2 {
+	color: #ED5F7C;
+    font-weight: bold;
+    font-size: 28px;
 }
 
 /* Sidebar left */
@@ -1308,30 +1325,31 @@ ul.products li.product a img,
 }
 
 .woocommerce-MyAccount-navigation ul,
-#sidebar-left .product-categories {
+#sidebar-left .wc-block-product-categories-list {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
 
 .woocommerce-MyAccount-navigation ul li a,
-#sidebar-left .product-categories li a {
+#sidebar-left .wc-block-product-categories-list li a {
 	color: #555;
 	text-decoration: none;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	border-top: solid 1px #e6e6e6;
 	display: block;
-	margin-bottom: 10px;
 }
 
 .woocommerce-MyAccount-navigation ul li.is-active a,
-#sidebar-left .product-categories li.current-cat a,
+#sidebar-left .wc-block-product-categories-list li.current-cat a,
 .woocommerce-MyAccount-navigation ul li a:hover,
-#sidebar-left .product-categories li a:hover {
+#sidebar-left .wc-block-product-categories-list li a:hover {
 	color: #ED5F7C;
 }
 
-#sidebar-left .product-categories ul.children {
+#sidebar-left .wc-block-product-categories-list ul.children,
+#sidebar-left .wc-block-product-categories-list .wc-block-product-categories-list-item-count {
 	display: none;
 }
 
@@ -1339,7 +1357,6 @@ ul.products li.product a img,
 
 footer.site-footer {
 	padding-top: 30px;
-	margin-top: 30px;
 }
 
 footer.site-footer .custom-logo-link {
