@@ -1226,9 +1226,9 @@ ul.products li.product a img,
 
 .woocommerce ul.products li.product .price ins,
 .products a .price-product .woocommerce-Price-amount {
-	font-size: 20px;
+	font-size: 24px;
 	margin-right: 5px;
-	color: #77a464;
+	color: #768f6b;
 	font-weight: bold;
 }
 
@@ -1468,7 +1468,10 @@ footer.site-footer ul li.social-midia a svg.fa-whatsapp-square {
 /* Product Page */
 
 .single-product h1 {
-	font-size: 20px;
+	font-size: 28px;
+    color: #323232;
+    line-height: 35px;
+    font-weight: bold;
 }
 
 .single-product h2 {
@@ -1492,4 +1495,71 @@ footer.site-footer ul li.social-midia a svg.fa-whatsapp-square {
 	margin-bottom: 30px;
 	font-size: 35px;
 	text-align: center;
+}
+
+.woocommerce-page div.product div.images {
+	width: 100%;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce div.product p.price ins, 
+.woocommerce div.product span.price ins {
+	font-size: 45px;
+    color: #768f6b !important;
+	font-weight: bold;
+}
+
+.woocommerce div.product p.price del,
+.woocommerce div.product span.price del {
+	color: #333;
+	font-size: 14px;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+	margin: 0;
+	color: #363636;
+}
+
+/* Melhor envio */
+#melhor-envio-shortcode {
+	background-color: transparent;
+	padding: 20px 0;
+	margin: 40px 0;
+	border-top: solid 1px #a9a6a666;
+	border-bottom: solid 1px #a9a6a666;
+}
+
+
+.quantidadeItens {
+	float: left;
+    margin-top: 5px;
+	margin-left: 10px;
+}
+
+.woocommerce div.product form.cart .button {
+	clear: both;
+	margin-top: 10px;
+	width: 100%;
+	padding: 20px;
+}
+
+#melhor-envio-shortcode p {
+	color: #ED5F7C;
+	font-weight: bold;
+}
+
+.product_meta a {
+	color: #ED5F7C;
+	text-decoration: none;
+}
+
+.woocommerce-shipping-calculator #calc_shipping_postcode_field {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.woocommerce-shipping-calculator #calc_shipping_postcode {
+	padding: 10px;
 }
