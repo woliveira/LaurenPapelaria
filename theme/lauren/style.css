@@ -1111,6 +1111,65 @@ header.site-header .user-my-cart a .cart-contents-count {
 	margin-bottom: 5px;
 }
 
+@media (max-width: 575.98px) {
+	.user-my-account {
+		width: auto !important;
+		margin-top: 24px !important;
+	}
+
+	.user-my-cart {
+		float: left !important;
+		margin-top: 20px !important;
+	}
+
+	header.site-header #header-content {
+		padding-top: 10px !important;
+	}
+
+	.site-branding img,
+	.woocommerce img,
+	.woocommerce-page img {
+		width: 75%;
+	}
+
+	header.site-header #search-form {
+		margin-top: 25px;
+	}
+
+	footer.site-footer {
+		text-align: center;
+	}
+
+	footer.site-footer .custom-logo-link {
+		margin-bottom: 40px;
+	}
+
+	#primary {
+		margin-bottom: 0 !important;
+	}
+
+	.woocommerce .woocommerce-ordering,
+	.woocommerce-page .woocommerce-ordering select {
+		width: 100%;
+	}
+
+	.woocommerce div.product .product_title {
+		font-weight: normal;
+	}
+
+	#painel-itens-welcome {
+		margin-bottom: 0;
+	}
+
+	#painel-itens-welcome div div {
+		margin-bottom: 45px;
+	}
+	
+	#painel-itens-welcome div div h3 {
+		font-size: 14px;
+	}
+}
+
 /* Content */
 
 #content-wraper {

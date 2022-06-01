@@ -3,6 +3,7 @@
  * Bootstrap Custom
  */
 
+.col-15,
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
@@ -13,12 +14,16 @@
     padding-left: 10px;
 }
 
+.col-15 {
+    width: 50%;
+    float: left;
+}
 .col-xs-15 {
     width: 20%;
     float: left;
 }
 @media (min-width: 768px) {
-.col-sm-15 {
+    .col-sm-15 {
         width: 20%;
         float: left;
     }

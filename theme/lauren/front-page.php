@@ -18,22 +18,22 @@ get_header();
 		<div class="container">
 			<div id="painel-itens-welcome" class="container">
 				<div class="row">
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-6">
 						<i class="fa-solid fa-truck"></i>
 						<h3>Rastreie seu Pedido</h3>
 					</div>
 					
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-6">
 						<i class="fa-brands fa-whatsapp"></i>
 						<h3>Compre no Whatsapp</h3>
 					</div>
 
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-6">
 						<i class="fa-solid fa-star"></i>
 						<h3>Lan&ccedil;amento</h3>
 					</div>
 
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-3 col-sm-6 col-6">
 						<i class="fa-solid fa-gift"></i>
 						<h3>Kits da Semana</h3>
 					</div>
@@ -66,7 +66,7 @@ get_header();
 					$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
 					?>
 
-					<div class="col-lg-15">
+					<div class="col-lg-15 col-15">
 						<div class="products">
 							<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
 								<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
@@ -131,7 +131,7 @@ get_header();
 					$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
 					?>
 
-					<div class="col-lg-15">
+					<div class="col-lg-15 col-15">
 						<div class="products">
 							<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
 								<?php print "<div class='image-product'>" . $product->get_image(['700', '600'], ["class" => "img-responsive"], '') . "</div>"; ?>

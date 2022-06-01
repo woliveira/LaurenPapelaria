@@ -28,12 +28,12 @@
 	<header id="masthead" class="site-header">
 		<div id="header-content" class="container">
 			<div class="row">
-				<div class="col-lg-2 col-sm-7">
+				<div class="col-lg-2 col-sm-7 col-8">
 					<div class="site-branding">
 						<?php the_custom_logo(); ?>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-5 d-block d-lg-none">
+				<div class="col-lg-3 col-sm-5 d-block d-lg-none col-4">
 					<div class="user-tool">
 						<div class="user-my-account">
 							<span class="icon">
@@ -41,7 +41,7 @@
 									<i class="fa-solid fa-user"></i>
 								</a>
 							</span>
-							<p class="message-login">
+							<p class="message-login d-none .d-sm-block">
 								<?php
 									if ( is_user_logged_in() ) {
 										global $current_user;
