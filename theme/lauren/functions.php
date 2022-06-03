@@ -241,9 +241,7 @@ add_action( 'woocommerce_single_product_data_price', 'woocommerce_template_singl
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 
 function calculo_parcelamento_produto() {
-	$product = wc_get_product(get_the_ID());
-	$valorParcelado = ($product->price / 6);
-	print "pague em 6x de " . wc_price($valorParcelado) . " sem juros no cartao";
+	print "pague em at&#xE9; 12x no cart&#xE3;o de cr&#xE9;dito";
 }
 
 add_action( 'woocommerce_single_product_data_price', 'calculo_parcelamento_produto', 11 );

@@ -67,12 +67,6 @@ if ( $upsells ) : ?>
 								<div class="price-product">
 									<?php print $upsell->get_price_html(); ?>
 								</div>
-								<div class="parcelamento-product">
-									<?php
-										$valorParcelado = ($priceProduto / 6);
-										print "6x de " . wc_price($valorParcelado) . " sem juros no cartao";
-									?>
-								</div>
 							</a>
 						</div>
 					</div>

@@ -104,12 +104,6 @@ get_header();
 								<div class="price-product">
 									<?php print $product->get_price_html(); ?>
 								</div>
-								<div class="parcelamento-product">
-									<?php
-										$valorParcelado = ($priceProduto / 6);
-										print "6x de " . wc_price($valorParcelado) . " sem juros no cartao";
-									?>
-								</div>
 							</a>
 						</div>
 					</div>
@@ -180,12 +174,6 @@ get_header();
 								</div>
 								<div class="price-product">
 									<?php print $product->get_price_html(); ?>
-								</div>
-								<div class="parcelamento-product">
-									<?php
-										$valorParcelado = ($priceProduto / 6);
-										print "6x de " . wc_price($valorParcelado) . " sem juros no cartao";
-									?>
 								</div>
 							</a>
 						</div>

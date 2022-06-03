@@ -1183,7 +1183,7 @@ header.site-header .user-my-cart a .cart-contents-count {
 }
 
 #primary {
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 /* Produto */
@@ -1363,6 +1363,10 @@ ul.products li.product a img,
 }
 
 #calc_shipping_country_field {
+	display: none;
+}
+
+.woocommerce-cart .woocommerce-notices-wrapper {
 	display: none;
 }
 
