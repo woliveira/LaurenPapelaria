@@ -235,7 +235,6 @@ function lauren_mudar_titulo_produto_loop() {
     echo '<div class="title-product"><h5 class="' . esc_attr( apply_filters( 'woocommerce_product_loop_title_classes', 'woocommerce-loop-product__title' ) ) . '">' . $nomeProduto . '</h5></div>';
 }
 
-
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
 add_action( 'woocommerce_single_product_data_price', 'woocommerce_template_single_price', 10 );
 
@@ -250,13 +249,9 @@ function calculo_parcelamento_produto() {
 add_action( 'woocommerce_single_product_data_price', 'calculo_parcelamento_produto', 11 );
 
 function calculo_cep_melhor_envio() {
-	print do_shortcode("[calculadora_melhor_envio product_id='56']");
+	print do_shortcode("[calculadora_melhor_envio product_id='" . get_the_ID() . "']");
 }
 
 add_action( 'woocommerce_single_product_data_price', 'calculo_cep_melhor_envio', 12);
 
 add_action( 'woocommerce_single_product_data_price', 'woocommerce_template_single_add_to_cart', 13 );
-
-add_filter( 'woocommerce_shipping_calculator_enable_country', '__return_false' );
-add_filter( 'woocommerce_shipping_calculator_enable_state', '__return_false' );
-add_filter( 'woocommerce_shipping_calculator_enable_city', '__return_false' );

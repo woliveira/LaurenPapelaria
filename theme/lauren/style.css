@@ -979,7 +979,8 @@ textarea {
 }
 
 .user-tool {
-	width: 280px;
+	width: auto;
+    float: right;
 } 
 
 header.site-header,
@@ -1036,7 +1037,7 @@ header.site-header #search-form .icon-search::before {
 header.site-header .user-my-account {
 	margin-top: 38px;
     width: 180px;
-    margin-right: 20px;
+    margin-right: 12px;
     float: left;
 }
 
@@ -1120,6 +1121,7 @@ header.site-header .user-my-cart a .cart-contents-count {
 	.user-my-cart {
 		float: left !important;
 		margin-top: 20px !important;
+		margin-right: 17px;
 	}
 
 	header.site-header #header-content {
@@ -1133,7 +1135,7 @@ header.site-header .user-my-cart a .cart-contents-count {
 	}
 
 	header.site-header #search-form {
-		margin-top: 25px;
+		margin: 25px 0;
 	}
 
 	footer.site-footer {
@@ -1167,6 +1169,10 @@ header.site-header .user-my-cart a .cart-contents-count {
 	
 	#painel-itens-welcome div div h3 {
 		font-size: 14px;
+	}
+
+	header.site-header #header-content {
+		margin-bottom: 0;
 	}
 }
 
@@ -1350,6 +1356,14 @@ ul.products li.product a img,
 
 .woocommerce-page .col2-set .col-2 {
 	margin-top: 30px;
+}
+
+.woocommerce-cart-form .product-name a {
+	color: #404040;
+}
+
+#calc_shipping_country_field {
+	display: none;
 }
 
 /* Related Products */
@@ -1555,11 +1569,55 @@ footer.site-footer ul li.social-midia a svg.fa-whatsapp-square {
 	text-decoration: none;
 }
 
+.woocommerce-shipping-calculator #calc_shipping_city_field,
 .woocommerce-shipping-calculator #calc_shipping_postcode_field {
 	margin: 0 0 10px 0;
 	padding: 0;
 }
 
+.woocommerce-shipping-calculator .select2-container .select2-selection--single {
+	height: auto;
+    margin-bottom: 2px;
+}
+
+.woocommerce-shipping-calculator #select2-calc_shipping_state-container {
+	padding: 6px 10px;
+}
+
+.woocommerce-shipping-calculator #calc_shipping_city,
 .woocommerce-shipping-calculator #calc_shipping_postcode {
 	padding: 10px;
+}
+
+.woocommerce-shipping-calculator #calc_shipping_state_field {
+	padding: 0 !important;
+}
+
+.menu-mobile {
+	position: relative;
+    margin: 0;
+    top: 15px;
+    right: 0;
+    float: left;
+    width: auto;
+}
+
+.menu-mobile button {
+	color: #ED5F7C;
+}
+
+#primary-menu-mobile li {
+	padding: 10px 0;
+}
+
+#primary-menu-mobile li a {
+	text-decoration: none;
+}
+
+#primary-menu-mobile li {
+	border-bottom: solid 1px #fff;
+}
+
+#primary-menu-mobile li:last-child {
+	border-bottom: 0;
 }

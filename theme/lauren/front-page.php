@@ -42,10 +42,22 @@ get_header();
 
 			<div class="row">
 				<div class="col-lg-6">
-					<div style="height:280px;background:#ededed;margin-bottom:30px;"></div>
+					<div style="background:#ededed;margin-bottom:30px;">
+						<?php
+							$categoryLink = get_category_link(15);
+							$img = wp_get_attachment_image_src(72, '');
+						?>
+						<a href="<?php echo esc_url($categoryLink); ?>" title=""><img src="<?php echo $img[0]; ?>" alt="image"></a>
+					</div>
 				</div>
 				<div class="col-lg-6">
-					<div style="height:280px;background:#ededed;margin-bottom:30px;"></div>
+					<div style="background:#ededed;margin-bottom:30px;">
+					<?php
+							$categoryLink = get_category_link(15);
+							$img = wp_get_attachment_image_src(73, '');
+						?>
+						<a href="<?php echo esc_url($categoryLink); ?>" title=""><img src="<?php echo $img[0]; ?>" alt="image"></a>
+					</div>
 				</div>
 			</div>
 
@@ -106,11 +118,23 @@ get_header();
 			</div>
 
 			<div class="row">
-				<div class="col-lg-6">
-					<div style="height:280px;background:#ededed;margin-bottom:30px;"></div>
+			<div class="col-lg-6">
+					<div style="background:#ededed;margin-bottom:30px;">
+						<?php
+							$categoryLink = get_category_link(15);
+							$img = wp_get_attachment_image_src(70, '');
+						?>
+						<a href="<?php echo esc_url($categoryLink); ?>" title=""><img src="<?php echo $img[0]; ?>" alt="image"></a>
+					</div>
 				</div>
 				<div class="col-lg-6">
-					<div style="height:280px;background:#ededed;margin-bottom:30px;"></div>
+					<div style="background:#ededed;margin-bottom:30px;">
+					<?php
+							$categoryLink = get_category_link(15);
+							$img = wp_get_attachment_image_src(71, '');
+						?>
+						<a href="<?php echo esc_url($categoryLink); ?>" title=""><img src="<?php echo $img[0]; ?>" alt="image"></a>
+					</div>
 				</div>
 			</div>
 

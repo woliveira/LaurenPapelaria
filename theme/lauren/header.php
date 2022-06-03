@@ -28,12 +28,12 @@
 	<header id="masthead" class="site-header">
 		<div id="header-content" class="container">
 			<div class="row">
-				<div class="col-lg-2 col-sm-7 col-8">
+				<div class="col-lg-2 col-sm-7 col-5">
 					<div class="site-branding">
 						<?php the_custom_logo(); ?>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-5 d-block d-lg-none col-4">
+				<div class="col-lg-3 col-sm-5 d-block d-lg-none col-7">
 					<div class="user-tool">
 						<div class="user-my-account">
 							<span class="icon">
@@ -54,6 +54,13 @@
 						</div>
 						<div class="user-my-cart">
 							<?php echo do_shortcode("[woocommerce_cart_icon]"); ?>
+						</div>
+						<div class="menu-mobile">
+							<nav class="navbar navbar-expand-lg">
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+								</button>
+							</nav>
 						</div>
 					</div>
 				</div>
@@ -96,7 +103,19 @@
 
 		<div id="menu-navigation">
 			<div class="container">
-				<nav id="site-navigation" class="main-navigation">
+				<div class="collapse navbar-collapse" id="navbarNav">
+				<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'menu-1',
+								'menu_id'        => 'primary-menu-mobile',
+								'menu_class' => 'navbar-nav'
+							)
+						);
+					?>
+				</div>
+
+				<nav id="site-navigation" class="main-navigation d-none d-lg-block">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'lauren' ); ?></button>
 					<?php
 						wp_nav_menu(
