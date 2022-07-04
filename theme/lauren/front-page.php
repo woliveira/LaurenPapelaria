@@ -152,7 +152,7 @@ get_header();
 					<div class="col-lg-15 col-15">
 						<div class="products">
 							<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
-								<?php print "<div class='image-product'>" . $product->get_image(['700', '600'], ["class" => "img-responsive"], '') . "</div>"; ?>
+								<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
 
 								<?php
 									if ($porcentagemDoDesconto > 0) {

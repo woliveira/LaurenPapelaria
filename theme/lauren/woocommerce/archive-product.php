@@ -23,7 +23,7 @@ get_header( 'shop' ); ?>
 		<?php do_action( 'woocommerce_before_main_content' ); ?>
 		
 		<div class="row">
-			<div class="col-lg-3">
+			<div class="col-lg-2">
 				<div id="sidebar-left">
 					<?php
 						do_action( 'woocommerce_sidebar' );
@@ -31,7 +31,7 @@ get_header( 'shop' ); ?>
 				</div>
 			</div>
 		
-			<div class="col-lg-9">
+			<div class="col-lg-10">
 				<header class="woocommerce-products-header">
 					<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 						<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
