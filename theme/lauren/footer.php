@@ -42,13 +42,13 @@
 							<h3>Atendimento</h3>
 							<ul>
 								<li>Whatsapp: (19) 98211-1736</li>
-								<li>E-mail: vendas@laurenpapelaria.com.br</li>
+								<li>vendas@laurenpapelaria.com.br</li>
 								<li><strong>Hor&aacute;rio de atendimento:</strong>
 								<br>Segunda &agrave; sexta das 9:00 &agrave;s 18:00 horas</li>
 								<li class="social-midia">
-									<a href="#" title=""><i class="fa-brands fa-instagram-square"></i></a>
+									<a href="https://www.instagram.com/lauren.papelaria/" target="_blank" title=""><i class="fa-brands fa-instagram-square"></i></a>
 									<a href="#" title=""><i class="fa-brands fa-facebook-square"></i></a>
-									<a href="#" title=""><i class="fa-brands fa-whatsapp-square"></i></a>
+									<a href="https://wa.me/5519971145244" target="_blank" title=""><i class="fa-brands fa-whatsapp-square"></i></a>
 								</li>
 							</ul>
 						</div>
