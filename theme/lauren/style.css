@@ -1112,6 +1112,12 @@ header.site-header .user-my-cart a .cart-contents-count {
 	margin-bottom: 5px;
 }
 
+#painel-itens-welcome h3 a,
+#painel-itens-welcome h3 a:visited {
+	color: #ED5F7C !important;
+	text-decoration: none !important;
+}
+
 @media (max-width: 575.98px) {
 	.user-my-account {
 		width: auto !important;
@@ -1509,6 +1515,10 @@ footer.site-footer ul li.social-midia a svg.fa-whatsapp-square {
 	margin-right: 10px;
 }
 
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) {
+	width: 22% !important;
+}
+
 .single-product #related-products h3 {
 	margin-bottom: 30px;
 	font-size: 35px;
@@ -1624,4 +1634,51 @@ footer.site-footer ul li.social-midia a svg.fa-whatsapp-square {
 
 #primary-menu-mobile li:last-child {
 	border-bottom: 0;
+}
+
+.navbar-mobile {
+	padding-bottom: 2px;
+}
+
+.navbar-mobile .wc-block-product-categories-list {
+	margin: 0;
+}
+
+.navbar-mobile ul.wc-block-product-categories-list {
+	margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-mobile ul.wc-block-product-categories-list li.wc-block-product-categories-list-item a {
+	padding-left: 3px;
+    text-decoration: none;
+	line-height: 40px;
+}
+
+.navbar-mobile .wc-block-product-categories-list-item-count {
+	display: none;
+}
+
+.navbar-mobile h4 {
+	color: #fff;
+    padding: 10px;
+}
+
+.woocommerce div.product form.cart .variations select {
+	padding: 7px 10px;
+}
+
+h3.topics {
+	color: #363636 !important;
+	text-align: center;
+	margin: 30px 0 10px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+span.topic-separator {
+	border-bottom: solid 5px red;
+    width: 100px;
+    margin: 0 auto 40px auto;
 }

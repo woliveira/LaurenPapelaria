@@ -147,6 +147,7 @@ function lauren_scripts() {
 	wp_enqueue_script( 'lauren-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/vendors/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js');
 	wp_enqueue_script( 'fonts-awasome', get_template_directory_uri() . '/vendors/fontawesome-free-6.1.1-web/js/all.min.js');
+	wp_enqueue_script( 'lauren-script', get_template_directory_uri() . '/js/consultar-cep.js');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -253,3 +254,6 @@ function calculo_cep_melhor_envio() {
 add_action( 'woocommerce_single_product_data_price', 'calculo_cep_melhor_envio', 12);
 
 add_action( 'woocommerce_single_product_data_price', 'woocommerce_template_single_add_to_cart', 13 );
+
+add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
