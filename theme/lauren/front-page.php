@@ -62,7 +62,7 @@ get_header();
 			</div> -->
 
 			<div class="row">
-				<h3 class="topics">Acabou de chegar</h3>
+				<h3 class="topics">Produtos em destaque</h3>
 				<span class="topic-separator"></span>
 			</div>
 
@@ -70,7 +70,7 @@ get_header();
 			<?php
 				$args = [
 					'orderby' => 'rand',
-					'limit' => 20,
+					'limit' => 10,
 					'status' => 'publish'
 				];
 
@@ -100,11 +100,11 @@ get_header();
 									<?php
 										$nomeProduto = $product->name;
 
-										if (strlen($product->name) > 50) {
-											$nomeProduto = substr($product->name, 0, 50) . "...";
+										if (strlen($product->name) > 55) {
+											$nomeProduto = substr($product->name, 0, 55) . "...";
 										}
 
-										print "<h5>" . $nomeProduto . "</h5>";
+										print $nomeProduto;
 									?>
 								</div>
 								<div class="price-product">
@@ -114,6 +114,65 @@ get_header();
 						</div>
 					</div>
 				<?php
+				} ?>
+			</div>
+
+			<div class="row">
+				<h3 class="topics">Acabou de chegar</h3>
+				<span class="topic-separator"></span>
+			</div>
+
+			<div class="row">
+			<?php
+				$args = [
+					'orderby' => 'rand',
+					'limit' => 20,
+					'status' => 'publish',
+					'product_tag' => 'acabou_de_chegar'
+				];
+
+				$products = wc_get_products($args);
+
+				if ($products) {
+					foreach ($products as $product) {
+						$priceProduto = $product->price;
+						$regularPriceProduto = $product->regular_price;
+
+						$valorDoDesconto = $regularPriceProduto - $priceProduto;
+						$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
+						?>
+
+						<div class="col-lg-15 col-15">
+							<div class="products">
+								<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
+									<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
+
+									<?php
+										if ($porcentagemDoDesconto > 0) {
+											print "<div class='desconto-product'>";
+											print "-" . wc_format_decimal($porcentagemDoDesconto, 0) . "%";
+											print "</div>";
+										}
+									?>
+									<div class="title-product">
+										<?php
+											$nomeProduto = $product->name;
+
+											if (strlen($product->name) > 50) {
+												$nomeProduto = substr($product->name, 0, 50) . "...";
+											}
+
+											print "<h5>" . $nomeProduto . "</h5>";
+										?>
+									</div>
+									<div class="price-product">
+										<?php print $product->get_price_html(); ?>
+									</div>
+								</a>
+							</div>
+						</div>
+					<?php
+					}
 				} ?>
 			</div>
 
@@ -148,54 +207,57 @@ get_header();
 				$args = [
 					'orderby' => 'rand',
 					'limit' => 10,
-					'status' => 'publish'
+					'status' => 'publish',
+					'product_tag' => 'os_mais_vendidos'
 				];
 
 				$products = wc_get_products($args);
 
-				foreach ($products as $product) {					
-					$priceProduto = $product->price;
-					$regularPriceProduto = $product->regular_price;
+				if ($products) {
+					foreach ($products as $product) {
+						$priceProduto = $product->price;
+						$regularPriceProduto = $product->regular_price;
 
-					$valorDoDesconto = $regularPriceProduto - $priceProduto;
-					$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
-					?>
+						$valorDoDesconto = $regularPriceProduto - $priceProduto;
+						$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
+						?>
 
-					<div class="col-lg-15 col-15">
-						<div class="products">
-							<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
-								<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
+						<div class="col-lg-15 col-15">
+							<div class="products">
+								<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
+									<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
 
-								<?php
-									if ($porcentagemDoDesconto > 0) {
-										print "<div class='desconto-product'>";
-										print "-" . wc_format_decimal($porcentagemDoDesconto, 0) . "%";
-										print "</div>";
-									}
-								?>
-								<div class="title-product">
 									<?php
-										$nomeProduto = $product->name;
-
-										if (strlen($product->name) > 55) {
-											$nomeProduto = substr($product->name, 0, 55) . "...";
+										if ($porcentagemDoDesconto > 0) {
+											print "<div class='desconto-product'>";
+											print "-" . wc_format_decimal($porcentagemDoDesconto, 0) . "%";
+											print "</div>";
 										}
-
-										print $nomeProduto;
 									?>
-								</div>
-								<div class="price-product">
-									<?php print $product->get_price_html(); ?>
-								</div>
-							</a>
+									<div class="title-product">
+										<?php
+											$nomeProduto = $product->name;
+
+											if (strlen($product->name) > 55) {
+												$nomeProduto = substr($product->name, 0, 55) . "...";
+											}
+
+											print $nomeProduto;
+										?>
+									</div>
+									<div class="price-product">
+										<?php print $product->get_price_html(); ?>
+									</div>
+								</a>
+							</div>
 						</div>
-					</div>
-				<?php
+					<?php
+					}
 				} ?>
 			</div>
 
 			<div class="row">
-				<h3 class="topics">Promoções</h3>
+				<h3 class="topics">Em promoÃ§Ãµes</h3>
 				<span class="topic-separator"></span>
 			</div>
 
@@ -204,49 +266,52 @@ get_header();
 				$args = [
 					'orderby' => 'rand',
 					'limit' => 10,
-					'status' => 'publish'
+					'status' => 'publish',
+					'product_tag' => 'promocoes'
 				];
 
 				$products = wc_get_products($args);
 
-				foreach ($products as $product) {
-					$priceProduto = $product->price;
-					$regularPriceProduto = $product->regular_price;
+				if ($products) {
+					foreach ($products as $product) {
+						$priceProduto = $product->price;
+						$regularPriceProduto = $product->regular_price;
 
-					$valorDoDesconto = $regularPriceProduto - $priceProduto;
-					$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
-					?>
+						$valorDoDesconto = $regularPriceProduto - $priceProduto;
+						$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
+						?>
 
-					<div class="col-lg-15 col-15">
-						<div class="products">
-							<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
-								<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
+						<div class="col-lg-15 col-15">
+							<div class="products">
+								<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
+									<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
 
-								<?php
-									if ($porcentagemDoDesconto > 0) {
-										print "<div class='desconto-product'>";
-										print "-" . wc_format_decimal($porcentagemDoDesconto, 0) . "%";
-										print "</div>";
-									}
-								?>
-								<div class="title-product">
 									<?php
-										$nomeProduto = $product->name;
-
-										if (strlen($product->name) > 55) {
-											$nomeProduto = substr($product->name, 0, 55) . "...";
+										if ($porcentagemDoDesconto > 0) {
+											print "<div class='desconto-product'>";
+											print "-" . wc_format_decimal($porcentagemDoDesconto, 0) . "%";
+											print "</div>";
 										}
-
-										print $nomeProduto;
 									?>
-								</div>
-								<div class="price-product">
-									<?php print $product->get_price_html(); ?>
-								</div>
-							</a>
+									<div class="title-product">
+										<?php
+											$nomeProduto = $product->name;
+
+											if (strlen($product->name) > 55) {
+												$nomeProduto = substr($product->name, 0, 55) . "...";
+											}
+
+											print $nomeProduto;
+										?>
+									</div>
+									<div class="price-product">
+										<?php print $product->get_price_html(); ?>
+									</div>
+								</a>
+							</div>
 						</div>
-					</div>
-				<?php
+					<?php
+					}
 				} ?>
 			</div>
 		</div>
