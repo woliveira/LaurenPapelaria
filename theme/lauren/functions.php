@@ -240,6 +240,9 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 add_action( 'woocommerce_single_product_data_price', 'woocommerce_template_single_price', 10 );
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+
+
 
 function calculo_parcelamento_produto() {
 	print "pague em at&#xE9; 12x no cart&#xE3;o de cr&#xE9;dito";
