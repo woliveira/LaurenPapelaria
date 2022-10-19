@@ -693,6 +693,9 @@ textarea {
 
 .main-navigation li {
 	position: relative;
+    margin: 0 auto;
+    min-width: 135px;
+    text-align: center;
 }
 
 .main-navigation a {
@@ -1009,6 +1012,10 @@ header.site-header #menu-navigation {
 header.site-header #menu-navigation ul li a {
 	color: #fff;
     padding: 12px 15px;
+}
+
+header.site-header #menu-navigation ul li a:hover {
+	background: #b9425a;
 }
 
 header.site-header #menu-navigation ul li ul li a {
