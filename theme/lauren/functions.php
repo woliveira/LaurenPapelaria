@@ -242,6 +242,9 @@ add_action( 'woocommerce_single_product_data_price', 'woocommerce_template_singl
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 
+remove_action( 'woocommerce_single_variation', 'woocommerce_single_variation', 10 );
+
+
 
 
 function calculo_parcelamento_produto() {
