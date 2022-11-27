@@ -10,14 +10,35 @@
  */
 ?>
 	<footer class="site-footer">
+		<div class="container footer-bottom">
+			<div id="newsletter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="conteudo-newsletter">
+								<h3>
+									<div class="icon-newsletter d-none d-sm-block"><i class="fa-solid fa-envelope"></i></div>
+									<div class="titulo-newsletter">Receba todas as novidades e promoções da papelaria</div>
+								</h3>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12">
+							<div class="form-newsletter">
+								<?php print do_shortcode("[mailpoet_form id='1']"); ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
 					<?php the_custom_logo(); ?>
 				</div>
 
-				<div class="col-lg-8">		
-					<div class="row">			
+				<div class="col-lg-8">
+					<div class="row">
 						<div class="col-lg-4">
 							<h3>A Papelaria</h3>
 							<ul>
@@ -54,6 +75,35 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="container footer-bottom">
+			<div id="pagamento-seguranca">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-sm-12">
+							<div class="pagamentos gateway-pagamentos">
+								<div class="texto-pagamento">Formas de pagamento disponível</div>
+								<ul class="pog-ui-logos-list pog-ui-logos-list--desktop">
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-pago@2x--cbadd6b0.png" class="pog-ui-logos-list__image" alt="Mercado Pago" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-pago@2x--cbadd6b0.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-pago@2x--cbadd6b0.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-pago@2x--cbadd6b0.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-pago@2x--cbadd6b0.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-pago@2x--cbadd6b0.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-credito@2x--24a4cd50.png" class="pog-ui-logos-list__image" alt="Mercado Credito" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-credito@2x--24a4cd50.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-credito@2x--24a4cd50.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-credito@2x--24a4cd50.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-credito@2x--24a4cd50.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/mercado-credito@2x--24a4cd50.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/pix--ca60a6a0.png" class="pog-ui-logos-list__image" alt="Pix" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/pix--ca60a6a0.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/pix--ca60a6a0.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/pix--ca60a6a0.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/pix--ca60a6a0.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/pix--ca60a6a0.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/boleto--d55e5f20.png" class="pog-ui-logos-list__image" alt="Boleto" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/boleto--d55e5f20.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/boleto--d55e5f20.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/boleto--d55e5f20.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/boleto--d55e5f20.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/boleto--d55e5f20.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/paypal--e7174470.png" class="pog-ui-logos-list__image" alt="PayPal" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/paypal--e7174470.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/paypal--e7174470.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/paypal--e7174470.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/paypal--e7174470.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/paypal--e7174470.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/caixa--f9ae7bd0.png" class="pog-ui-logos-list__image" alt="Caixa" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/caixa--f9ae7bd0.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/caixa--f9ae7bd0.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/caixa--f9ae7bd0.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/caixa--f9ae7bd0.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/caixa--f9ae7bd0.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/lotericas--06a656a0.png" class="pog-ui-logos-list__image" alt="Lotericas" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/lotericas--06a656a0.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/lotericas--06a656a0.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/lotericas--06a656a0.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/lotericas--06a656a0.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/lotericas--06a656a0.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/resources/frontend/gsl-assets/visa-icon--c948b270.png" class="pog-ui-logos-list__image" alt="Visa" srcset="https://http2.mlstatic.com/resources/frontend/gsl-assets/visa-icon--c948b270.png 360w, https://http2.mlstatic.com/resources/frontend/gsl-assets/visa-icon--c948b270.png 768w, https://http2.mlstatic.com/resources/frontend/gsl-assets/visa-icon--c948b270.png 1024w, https://http2.mlstatic.com/resources/frontend/gsl-assets/visa-icon--c948b270.png 1280w, https://http2.mlstatic.com/resources/frontend/gsl-assets/visa-icon--c948b270.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/resources/frontend/gsl-assets/master-icon--f02ed8c0.png" class="pog-ui-logos-list__image" alt="Mastercard" srcset="https://http2.mlstatic.com/resources/frontend/gsl-assets/master-icon--f02ed8c0.png 360w, https://http2.mlstatic.com/resources/frontend/gsl-assets/master-icon--f02ed8c0.png 768w, https://http2.mlstatic.com/resources/frontend/gsl-assets/master-icon--f02ed8c0.png 1024w, https://http2.mlstatic.com/resources/frontend/gsl-assets/master-icon--f02ed8c0.png 1280w, https://http2.mlstatic.com/resources/frontend/gsl-assets/master-icon--f02ed8c0.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/hiper--a71046b0.png" class="pog-ui-logos-list__image" alt="Hipercard" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/hiper--a71046b0.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/hiper--a71046b0.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/hiper--a71046b0.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/hiper--a71046b0.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/hiper--a71046b0.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/resources/frontend/gsl-assets/amex-icon--2b8948f0.png" class="pog-ui-logos-list__image" alt="American Express" srcset="https://http2.mlstatic.com/resources/frontend/gsl-assets/amex-icon--2b8948f0.png 360w, https://http2.mlstatic.com/resources/frontend/gsl-assets/amex-icon--2b8948f0.png 768w, https://http2.mlstatic.com/resources/frontend/gsl-assets/amex-icon--2b8948f0.png 1024w, https://http2.mlstatic.com/resources/frontend/gsl-assets/amex-icon--2b8948f0.png 1280w, https://http2.mlstatic.com/resources/frontend/gsl-assets/amex-icon--2b8948f0.png 1366w"></li>
+									<li class="pog-ui-logos-list__item"><img decoding="async" src="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/elo--bc1e9890.png" class="pog-ui-logos-list__image" alt="Elo" srcset="https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/elo--bc1e9890.png 360w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/elo--bc1e9890.png 768w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/elo--bc1e9890.png 1024w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/elo--bc1e9890.png 1280w, https://http2.mlstatic.com/storage/pog-cm-admin/calm-assets/elo--bc1e9890.png 1366w"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
 			<div class="block-footer">
 				<p class="text-center">&copy; Lauren Papelaria Criativa 2022<br />Lauren Papelaria Criativa ME - CNPJ: 45.991.457/0001-43 - Inscrição Estadual: 671.546.916.117</p>
 			</div>

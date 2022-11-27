@@ -999,8 +999,7 @@ textarea {
     float: right;
 } 
 
-header.site-header,
-footer.site-footer {
+header.site-header {
 	background-color: #FBEAEE;
 }
 
@@ -1505,9 +1504,7 @@ footer.site-footer .custom-logo-link {
 }
 
 footer.site-footer .block-footer {
-	margin-top: 20px;
 	padding: 30px 0;
-	border-top: 1px solid rgba(0, 0, 0, .05);
 }
 
 footer.site-footer ul {
@@ -1766,6 +1763,11 @@ span.topic-separator {
 	margin-bottom: 0;
 }
 
+.container.footer-bottom {
+	max-width: 2020px !important;
+	padding: 0;
+}
+
 .container.slider {
 	max-width: 2020px !important;
 	padding: 0;
@@ -1841,4 +1843,146 @@ span.topic-separator {
 
 #call .slick-slide {
 	margin: 0 10px;
+}
+
+#pagamento-seguranca {
+	background-color: #e9e9e9;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+#pagamento-seguranca .row {
+	padding: 0;
+	margin: 0;
+}
+
+#pagamento-seguranca .pagamentos {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#pagamento-seguranca .pagamentos .texto-pagamento {
+	margin-left: 10px;
+	margin: 15px 0;
+}
+
+#pagamento-seguranca .pagamentos ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    height: 40px;
+    margin: 8px;
+    padding: 6px;
+    width: 60px;
+	float: left;
+}
+
+#pagamento-seguranca .pagamentos ul {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#newsletter {
+	float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #ED5F7C;
+    padding: 20px 0;
+}
+
+#newsletter h3 {
+	color: #fff !important;
+	font-size: 18px;
+}
+
+#newsletter h3 svg {
+	font-size: 30px;
+}
+
+#newsletter .icon-newsletter {
+	width: 20px;
+    margin-right: 15px;
+    float: left;
+}
+
+#newsletter .titulo-newsletter {
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+}
+
+#newsletter .conteudo-newsletter {
+	width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+
+#newsletter .form-newsletter {
+	width: 100%;
+	float: left;
+}
+
+#newsletter .mailpoet_form {
+	border: 0;
+    background: transparent;
+}
+
+#newsletter .mailpoet_spacer {
+	display: none;
+}
+
+#newsletter .mailpoet_text {
+	width: 405px !important;
+	color: #333 !important;
+	font-family: 'Arial';
+}
+
+#newsletter .mailpoet_submit {
+	width: 185px !important;
+	color: #fff !important;
+}
+
+#mailpoet_form_1 ul.parsley-errors-list .parsley-type,
+#mailpoet_form_1 .parsley-required {
+	margin-top: 10px !important;
+    color: #fff !important;
+}
+
+.mailpoet_message p {
+	color: #fff !important;
+}
+
+@media (max-width: 575.98px) {
+	#newsletter .mailpoet_submit,
+	#newsletter .mailpoet_text {
+		width: 100% !important;
+		margin-bottom: 15px !important;
+		float: left;
+	}
+
+	#newsletter .conteudo-newsletter {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	#mailpoet_form_1 ul.parsley-errors-list .parsley-type,
+	#mailpoet_form_1 .parsley-required {
+		margin: 10px !important;
+    	text-align: center;
+	}
+
+	.mailpoet_message {
+		color: #333;
+	}
+
+	#pagamento-seguranca .pagamentos ul {
+		width: 310px;
+		margin: 0 auto;
+	}
+
+	.site-footer .row .row div {
+		margin-bottom: 20px;
+	}
 }

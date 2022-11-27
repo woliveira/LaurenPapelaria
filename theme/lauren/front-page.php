@@ -53,7 +53,7 @@ get_header();
 
 		<div class="container">
 			<div id="painel-itens-welcome" class="container d-none d-sm-block">
-				<div class="row">		
+				<div class="row">
 					<div class="col-md-3 col-sm-6 col-6">
 						<h3><i class="fa-solid fa-truck"></i><div class="text-itens">Entregamos em todo o Brasil</div></h3>
 					</div>
