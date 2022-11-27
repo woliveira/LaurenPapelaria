@@ -15,27 +15,146 @@
 get_header();
 ?>
 	<main id="content-wraper">
+		<div class="container slider container d-none d-sm-block">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a href="https://laurenpapelaria.com/produto-tag/acabou_de_chegar/" title="Conheça as novidades mais fofas da internet"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/slider-02.png" class="d-block w-100"></a>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="container slider d-block d-sm-none">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a href="https://laurenpapelaria.com/produto-tag/acabou_de_chegar/" title="Conheça as novidades mais fofas da internet"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/slider-1-mobile.png" class="d-block w-100"></a>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+
 		<div class="container">
-			<div id="painel-itens-welcome" class="container">
+			<div id="painel-itens-welcome" class="container d-none d-sm-block">
+				<div class="row">		
+					<div class="col-md-3 col-sm-6 col-6">
+						<h3><i class="fa-solid fa-truck"></i><div class="text-itens">Entregamos em todo o Brasil</div></h3>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-6">
+						<h3><i class="fa-solid fa-star"></i><div class="text-itens">Aceitamos pagamentos via PIX</div></h3>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-6">
+						<h3><i class="fa-solid fa-gift"></i><div class="text-itens">Sua compra com segurança</div></h3>
+					</div>
+					<div class="col-md-3 col-sm-6 col-6">
+						<h3><i class="fa-brands fa-whatsapp"></i><div class="text-itens"><a href="https://wa.me/5519971145244" target="_blank" title="Whatsapp">Compre pelo Whatsapp</a></div></h3>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div id="categorias">
+				<h3>CATEGORIAS</h3>
+				<ul>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Canetas</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Lapis</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Agenda</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Apontadores</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Corretivos</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Planners</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Blocos</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Estojos</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome"><a href="" title="">Tesouras</a></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="">
+							<div class="categoria-images"><img src="http://localhost:8000/wp-content/uploads/2022/11/cat.png" /></div>
+							<div class="categoria-nome">Whashi Tapes</div>
+						</a>
+					</li>
+				</ul>
+			</div> -->
+
+			<div id="call">
 				<div class="row">
-					<div class="col-md-3 col-sm-6 col-6">
-						<i class="fa-solid fa-truck"></i>
-						<h3>Rastreie seu Pedido</h3>
-					</div>
-
-					<div class="col-md-3 col-sm-6 col-6">
-						<i class="fa-brands fa-whatsapp"></i>
-						<h3><a href="https://wa.me/5519971145244" target="_blank" title="Whatsapp">Compre pelo Whatsapp</a></h3>
-					</div>
-
-					<div class="col-md-3 col-sm-6 col-6">
-						<i class="fa-solid fa-star"></i>
-						<h3>Lan&ccedil;amento</h3>
-					</div>
-
-					<div class="col-md-3 col-sm-6 col-6">
-						<i class="fa-solid fa-gift"></i>
-						<h3>Kits da Semana</h3>
+					<div class="slick-slider">
+						<div class="col-md-4 col-sm-4 col-4">
+							<a href="https://laurenpapelaria.com/categoria-produto/escrita/caneta/" title="As canetas mais fofas estão aqui !">
+								<img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/call-3.png" />
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 col-4">
+							<a href="https://www.instagram.com/lauren.papelaria/" target="_blank" title="Receba novidades pelo Instagram">
+								<img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/call-1.png" />
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-4 col-4">
+							<a href="https://laurenpapelaria.com/produto-tag/promocoes/" title="Super promoção da semana">
+								<img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/call-2.png" />
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -257,7 +376,7 @@ get_header();
 			</div>
 
 			<div class="row">
-				<h3 class="topics">Em promoções</h3>
+				<h3 class="topics">Promoções</h3>
 				<span class="topic-separator"></span>
 			</div>
 

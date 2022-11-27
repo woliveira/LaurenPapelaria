@@ -17,6 +17,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FKQH61WEN5"></script>
 	<script>
@@ -36,6 +42,22 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'lauren' ); ?></a>
 
 	<header id="masthead" class="site-header">
+		<div id="header-top">
+			<div class="row">
+				<div class="col-md-4 column-one d-none d-sm-block">
+					<p><a href="https://wa.me/5519971145244" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i>Fale no Whatsapp: <strong>(19) 98211-1736</strong></a></p>
+				</div>
+
+				<div class="col-md-4 column-two">
+					<p>A PAPELARIA MAIS CRIATIVA DO BRASIL</p>
+				</div>
+
+				<div class="col-md-4 column-three d-none d-sm-block">
+				<a href="https://www.instagram.com/lauren.papelaria/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.facebook.com/lauren.papelaria/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+				</div>
+			</div>
+		</div>
 		<div id="header-content" class="container">
 			<div class="row">
 				<div class="col-lg-2 col-sm-7 col-5">
