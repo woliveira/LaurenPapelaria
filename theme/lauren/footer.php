@@ -115,30 +115,18 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-	  $('.slick-slider').slick({
-		centerMode: true,
-		centerPadding: '60px',
-		slidesToShow: 3,
-		responsive: [
-			{
-			breakpoint: 768,
-			settings: {
-				arrows: false,
-				centerMode: true,
-				centerPadding: '40px',
-				slidesToShow: 3
-			}
-			},
-			{
-			breakpoint: 480,
-			settings: {
-				arrows: false,
-				centerMode: true,
-				centerPadding: '40px',
-				slidesToShow: 1
-			}
-			}
-		]
+	  $('.slick-slider-mobile').slick({
+			arrows: false,
+			centerMode: true,
+			centerPadding: '40px',
+			slidesToShow: 1
+		});
+
+		$('.categorias-mobile').slick({
+			arrows: false,
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 4,
 		});
     });
   </script>

@@ -45,7 +45,7 @@
 		<div id="header-top">
 			<div class="row">
 				<div class="col-md-4 column-one d-none d-sm-block">
-					<p><a href="https://wa.me/5519971145244" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i>Fale no Whatsapp: <strong>(19) 98211-1736</strong></a></p>
+					<p><a href="https://wa.me/5519971145244" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i>Fale no Whatsapp: <strong>(19) 97114-5244</strong></a></p>
 				</div>
 
 				<div class="col-md-4 column-two">
