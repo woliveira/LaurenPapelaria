@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="facebook-domain-verification" content="1be9qygtlqhstlszcyubh99aqpymkf" />
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -22,17 +23,6 @@
 
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FKQH61WEN5"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'G-FKQH61WEN5');
-	</script>
-	<script src="//code.jivosite.com/widget/tRXLVORb2R" async></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -49,7 +39,7 @@
 				</div>
 
 				<div class="col-md-4 column-two">
-					<p>A PAPELARIA MAIS CRIATIVA DO BRASIL</p>
+					<p>A PAPELARIA MAIS CRIATIVA DA INTERNET</p>
 				</div>
 
 				<div class="col-md-4 column-three d-none d-sm-block">
@@ -97,14 +87,11 @@
 					</div>
 				</div>
 				<div class="col-lg-7">
-					<form role="search" method="get" id="search-form" class="rounded" action= "<?php echo home_url( '/' ); ?>" >
+					<div id="search-form" class="rounded">
 						<div>
-							<label class="screen-reader-text" for= "s" >Pesquisar por:</label>
-							<span class="icon icon-search"></span>
-							<input type="texto" name="s" id="s" class="form-control search" placeholder= '<?php echo $search_params[' placeholder ']; ?>' />
-							<input type="hidden" name="post_type" value="product" >
+							<?php echo do_shortcode('[fibosearch]'); ?>
 						</div>
-					</form>
+					</div>
 				</div>
 				<div class="col-lg-3 d-none d-lg-block">
 					<div class="user-tool">

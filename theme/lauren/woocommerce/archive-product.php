@@ -34,7 +34,7 @@ get_header( 'shop' ); ?>
 					?>
 				</div>
 			</div>
-		
+
 			<div class="col-lg-10">
 				<header class="woocommerce-products-header">
 					<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
@@ -66,7 +66,7 @@ get_header( 'shop' ); ?>
 				} else {
 					do_action( 'woocommerce_no_products_found' );
 				}
-				
+
 				do_action( 'woocommerce_after_main_content' );
 				?>
 

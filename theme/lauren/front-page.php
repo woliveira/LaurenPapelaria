@@ -134,6 +134,57 @@ get_header();
 							<div class="categoria-nome">Agendas</div>
 						</a>
 					</div>
+
+					<!-- <div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/escrita/lapiseira/" title="Lapiseiras">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-11.png" /></div>
+							<div class="categoria-nome">Lapiseiras</div>
+						</a>
+						<a href="https://laurenpapelaria.com/categoria-produto/escritorio/organizadores/" title="Organizadores">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-12.png" /></div>
+							<div class="categoria-nome">Organizadores</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/apontador/" title="Apontador">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-13.png" /></div>
+							<div class="categoria-nome">Apontador</div>
+						</a>
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/cola/" title="Cola">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-14.png" /></div>
+							<div class="categoria-nome">Cola</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/estilete/" title="Estilete">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-15.png" /></div>
+							<div class="categoria-nome">Estilete</div>
+						</a>
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/grampos/" title="Grampeador">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-16.png" /></div>
+							<div class="categoria-nome">Grampeador</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/regua/" title="Régua">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-17.png" /></div>
+							<div class="categoria-nome">Réguas</div>
+						</a>
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/tesouras/" title="Tesouras">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-18.png" /></div>
+							<div class="categoria-nome">Tesouras</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/" title="Kits & Box">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-19.png" /></div>
+							<div class="categoria-nome">Kits & Combos</div>
+						</a>
+						<a href="https://laurenpapelaria.com/" title="Promoções">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-20.png" /></div>
+							<div class="categoria-nome">Promoções</div>
+						</a>
+					</div> -->
 				</div>
 			</div>
 
@@ -200,6 +251,67 @@ get_header();
 							<div class="categoria-nome">Agendas</div>
 						</a>
 					</div>
+
+					<!-- <div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/escrita/lapiseira/" title="Lapiseiras">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-11.png" /></div>
+							<div class="categoria-nome">Lapiseiras</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/escritorio/organizadores/" title="Organizadores">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-12.png" /></div>
+							<div class="categoria-nome">Organizadores</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/apontador/" title="Apontador">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-13.png" /></div>
+							<div class="categoria-nome">Apontador</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/cola/" title="Cola">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-14.png" /></div>
+							<div class="categoria-nome">Cola</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/estilete/" title="Estilete">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-15.png" /></div>
+							<div class="categoria-nome">Estilete</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/grampos/" title="Grampeador">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-16.png" /></div>
+							<div class="categoria-nome">Grampeador</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/regua/" title="Régua">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-17.png" /></div>
+							<div class="categoria-nome">Réguas</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/tesouras/" title="Tesouras">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-18.png" /></div>
+							<div class="categoria-nome">Tesouras</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/" title="Kits & Box">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-19.png" /></div>
+							<div class="categoria-nome">Kits & Combos</div>
+						</a>
+					</div>
+					<div class="cat-item">
+						<a href="https://laurenpapelaria.com/" title="Promoções">
+							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-20.png" /></div>
+							<div class="categoria-nome">Promoções</div>
+						</a>
+					</div> -->
 				</div>
 			</div>
 
@@ -273,6 +385,7 @@ get_header();
 				<span class="topic-separator"></span>
 			</div>
 
+			<div class="list-product-home">
 			<div class="row">
 			<?php
 				$args = [
@@ -291,7 +404,7 @@ get_header();
 					$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
 					?>
 
-					<div class="col-lg-15 col-15">
+					<div class="col-lg-15 col-15 inner-products">
 						<div class="products">
 							<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
 								<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
@@ -307,8 +420,8 @@ get_header();
 									<?php
 										$nomeProduto = $product->name;
 
-										if (strlen($product->name) > 55) {
-											$nomeProduto = substr($product->name, 0, 55) . "...";
+										if (strlen($product->name) > 43) {
+											$nomeProduto = substr($product->name, 0, 43) . "...";
 										}
 
 										print $nomeProduto;
@@ -349,7 +462,7 @@ get_header();
 						$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
 						?>
 
-						<div class="col-lg-15 col-15">
+						<div class="col-lg-15 col-15 inner-products">
 							<div class="products">
 								<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
 									<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
@@ -365,8 +478,8 @@ get_header();
 										<?php
 											$nomeProduto = $product->name;
 
-											if (strlen($product->name) > 50) {
-												$nomeProduto = substr($product->name, 0, 50) . "...";
+											if (strlen($product->name) > 43) {
+												$nomeProduto = substr($product->name, 0, 43) . "...";
 											}
 
 											print "<h5>" . $nomeProduto . "</h5>";
@@ -429,7 +542,7 @@ get_header();
 						$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
 						?>
 
-						<div class="col-lg-15 col-15">
+						<div class="col-lg-15 col-15 inner-products">
 							<div class="products">
 								<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
 									<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
@@ -445,8 +558,8 @@ get_header();
 										<?php
 											$nomeProduto = $product->name;
 
-											if (strlen($product->name) > 55) {
-												$nomeProduto = substr($product->name, 0, 55) . "...";
+											if (strlen($product->name) > 43) {
+												$nomeProduto = substr($product->name, 0, 43) . "...";
 											}
 
 											print $nomeProduto;
@@ -488,7 +601,7 @@ get_header();
 						$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
 						?>
 
-						<div class="col-lg-15 col-15">
+						<div class="col-lg-15 col-15 inner-products">
 							<div class="products">
 								<a href="<?php print esc_url( get_permalink( $product->get_id() ) ); ?>">
 									<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
@@ -504,8 +617,8 @@ get_header();
 										<?php
 											$nomeProduto = $product->name;
 
-											if (strlen($product->name) > 55) {
-												$nomeProduto = substr($product->name, 0, 55) . "...";
+											if (strlen($product->name) > 43) {
+												$nomeProduto = substr($product->name, 0, 43) . "...";
 											}
 
 											print $nomeProduto;
@@ -520,6 +633,7 @@ get_header();
 					<?php
 					}
 				} ?>
+			</div>
 			</div>
 		</div>
 	</main>
