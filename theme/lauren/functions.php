@@ -244,17 +244,20 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 
 remove_action( 'woocommerce_single_variation', 'woocommerce_single_variation', 10 );
 
-
-
-
-function calculo_parcelamento_produto() {
+function calculo_parcelamento_produto()
+{
 	print "pague em at&#xE9; 12x no cart&#xE3;o de cr&#xE9;dito";
 }
 
 add_action( 'woocommerce_single_product_data_price', 'calculo_parcelamento_produto', 11 );
 
-function calculo_cep_melhor_envio() {
-	print do_shortcode("[calculadora_melhor_envio product_id='" . get_the_ID() . "']");
+function calculo_cep_melhor_envio()
+{
+	$product = wc_get_product(get_the_ID());
+
+	if ($product->is_in_stock()) {
+		print do_shortcode("[calculadora_melhor_envio product_id='" . get_the_ID() . "']");
+	}
 }
 
 add_action( 'woocommerce_single_product_data_price', 'calculo_cep_melhor_envio', 12);

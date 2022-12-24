@@ -23,7 +23,11 @@ if ( ! $product->is_purchasable() ) {
 	return;
 }
 
-echo wc_get_stock_html( $product ); // WPCS: XSS ok.
+if (!$product->is_in_stock()) {
+	print "<div id='me-avise-por-email'><p class='title'>Me envie um e-mail quando o produto voltar.</p>";
+	print do_shortcode("[mailpoet_form id='2']");
+	print "</div>";
+}
 
 if ( $product->is_in_stock() ) : ?>
 

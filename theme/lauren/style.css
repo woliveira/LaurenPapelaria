@@ -1677,6 +1677,7 @@ footer.site-footer ul li.social-midia a svg.fa-whatsapp-square {
     padding: 15px;
 }
 
+#me-avise-por-email p.title,
 #melhor-envio-shortcode p {
 	color: #ED5F7C;
 	font-weight: bold;
@@ -2126,4 +2127,34 @@ span.topic-separator {
 		margin: 0 0.8% 0.5em 0 !important;
 		width: 24.05% !important;
 	}
+}
+
+#me-avise-por-email {
+	margin-top: 15px !important;
+}
+
+#me-avise-por-email form {
+	padding: 0 !important;
+}
+
+#me-avise-por-email form .mailpoet_submit {
+	background-color: #ED5F7C;
+	color: #fff;
+	padding: 14px !important;
+	border-radius: 8px;
+}
+
+#me-avise-por-email form .mailpoet_text {
+	padding: 14px !important;
+	border-radius: 8px;
+}
+
+#me-avise-por-email .mailpoet_message {
+	padding: 10px 0 0 0 !important;
+}
+
+#me-avise-por-email .mailpoet_message .mailpoet_validate_success,
+#me-avise-por-email .mailpoet_message .mailpoet_validate_error {
+	color: #323232 !important;
+	width: 100%;
 }
