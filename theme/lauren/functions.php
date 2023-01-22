@@ -147,13 +147,19 @@ function lauren_scripts() {
 	wp_enqueue_script( 'lauren-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/vendors/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js');
 	wp_enqueue_script( 'fonts-awasome', get_template_directory_uri() . '/vendors/fontawesome-free-6.1.1-web/js/all.min.js');
-	wp_enqueue_script( 'lauren-script', get_template_directory_uri() . '/js/consultar-cep.js');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'lauren_scripts' );
+
+function lauren_scripts_js() {
+	wp_enqueue_script( 'lauren-script', get_template_directory_uri() . '/js/scripts.js', NULL, NULL, true);
+}
+
+add_action( 'wp_enqueue_scripts', 'lauren_scripts_js', 20, 1);
+
 
 /**
  * Custom Fonts
@@ -267,3 +273,12 @@ add_action( 'woocommerce_single_product_data_price', 'woocommerce_template_singl
 add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
 add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 remove_action( 'woocommerce_checkout_terms_and_conditions', 'wc_checkout_privacy_policy_text', 20 );
+remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form');
+add_action( 'woocommerce_checkout_order_review', 'woocommerce_checkout_coupon_form' );
+
+add_filter( 'woocommerce_billing_fields', 'wc_unrequire_neighborhood_field');
+
+function wc_unrequire_neighborhood_field( $fields ) {
+	$fields['billing_neighborhood']['required'] = true;
+	return $fields;
+}

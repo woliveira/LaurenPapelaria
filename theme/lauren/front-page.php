@@ -18,8 +18,14 @@ get_header();
 		<div class="container slider container d-none d-sm-block">
 			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
+					<div class="carousel-item">
+						<a href="https://laurenpapelaria.com/categoria-produto/kits-e-combos/" title="Conheça as novidades mais fofas da internet"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/slider-01.png" class="d-block w-100"></a>
+					</div>
+					<div class="carousel-item">
+						<a href="https://laurenpapelaria.com/produto-tag/acabou_de_chegar/" title="Os kits e combos mais fofos da internet"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/slider-02.png" class="d-block w-100"></a>
+					</div>
 					<div class="carousel-item active">
-						<a href="https://laurenpapelaria.com/produto-tag/acabou_de_chegar/" title="Conheça as novidades mais fofas da internet"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/slider-02.png" class="d-block w-100"></a>
+						<img src="https://laurenpapelaria.com/wp-content/uploads/2023/01/slider-04.png" class="d-block w-100">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -36,8 +42,14 @@ get_header();
 		<div class="container slider d-block d-sm-none">
 			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
-					<div class="carousel-item active">
+					<div class="carousel-item">
 						<a href="https://laurenpapelaria.com/produto-tag/acabou_de_chegar/" title="Conheça as novidades mais fofas da internet"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/slider-1-mobile.png" class="d-block w-100"></a>
+					</div>
+					<div class="carousel-item active">
+						<a href="https://laurenpapelaria.com/categoria-produto/kits-e-combos/" title="Os kits e combos mais fofos da internet"><img src="https://laurenpapelaria.com/wp-content/uploads/2023/01/2.png" class="d-block w-100"></a>
+					</div>
+					<div class="carousel-item active">
+						<img src="https://laurenpapelaria.com/wp-content/uploads/2023/01/slider-4-mobile.png" class="d-block w-100">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -55,11 +67,11 @@ get_header();
 			<div id="painel-itens-welcome" class="container d-none d-sm-block">
 				<div class="row">
 					<div class="col-md-3 col-sm-6 col-6">
-						<h3><i class="fa-solid fa-truck"></i><div class="text-itens">Entregamos em todo o Brasil</div></h3>
+						<h3><i class="fa-solid fa-truck"></i><div class="text-itens">Entrega em todo o Brasil</div></h3>
 					</div>
 
 					<div class="col-md-3 col-sm-6 col-6">
-						<h3><i class="fa-solid fa-star"></i><div class="text-itens">Aceitamos pagamentos via PIX</div></h3>
+						<h3><i class="fa-solid fa-star"></i><div class="text-itens">Pagamentos via PIX</div></h3>
 					</div>
 
 					<div class="col-md-3 col-sm-6 col-6">
@@ -134,57 +146,6 @@ get_header();
 							<div class="categoria-nome">Agendas</div>
 						</a>
 					</div>
-
-					<!-- <div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/escrita/lapiseira/" title="Lapiseiras">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-11.png" /></div>
-							<div class="categoria-nome">Lapiseiras</div>
-						</a>
-						<a href="https://laurenpapelaria.com/categoria-produto/escritorio/organizadores/" title="Organizadores">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-12.png" /></div>
-							<div class="categoria-nome">Organizadores</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/apontador/" title="Apontador">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-13.png" /></div>
-							<div class="categoria-nome">Apontador</div>
-						</a>
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/cola/" title="Cola">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-14.png" /></div>
-							<div class="categoria-nome">Cola</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/estilete/" title="Estilete">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-15.png" /></div>
-							<div class="categoria-nome">Estilete</div>
-						</a>
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/grampos/" title="Grampeador">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-16.png" /></div>
-							<div class="categoria-nome">Grampeador</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/regua/" title="Régua">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-17.png" /></div>
-							<div class="categoria-nome">Réguas</div>
-						</a>
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/tesouras/" title="Tesouras">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-18.png" /></div>
-							<div class="categoria-nome">Tesouras</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/" title="Kits & Box">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-19.png" /></div>
-							<div class="categoria-nome">Kits & Combos</div>
-						</a>
-						<a href="https://laurenpapelaria.com/" title="Promoções">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-20.png" /></div>
-							<div class="categoria-nome">Promoções</div>
-						</a>
-					</div> -->
 				</div>
 			</div>
 
@@ -251,67 +212,6 @@ get_header();
 							<div class="categoria-nome">Agendas</div>
 						</a>
 					</div>
-
-					<!-- <div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/escrita/lapiseira/" title="Lapiseiras">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-11.png" /></div>
-							<div class="categoria-nome">Lapiseiras</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/escritorio/organizadores/" title="Organizadores">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-12.png" /></div>
-							<div class="categoria-nome">Organizadores</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/apontador/" title="Apontador">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-13.png" /></div>
-							<div class="categoria-nome">Apontador</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/cola/" title="Cola">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-14.png" /></div>
-							<div class="categoria-nome">Cola</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/estilete/" title="Estilete">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-15.png" /></div>
-							<div class="categoria-nome">Estilete</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/grampos/" title="Grampeador">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-16.png" /></div>
-							<div class="categoria-nome">Grampeador</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/regua/" title="Régua">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-17.png" /></div>
-							<div class="categoria-nome">Réguas</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/categoria-produto/papelaria/tesouras/" title="Tesouras">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-18.png" /></div>
-							<div class="categoria-nome">Tesouras</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/" title="Kits & Box">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-19.png" /></div>
-							<div class="categoria-nome">Kits & Combos</div>
-						</a>
-					</div>
-					<div class="cat-item">
-						<a href="https://laurenpapelaria.com/" title="Promoções">
-							<div class="categoria-images"><img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/icone-20.png" /></div>
-							<div class="categoria-nome">Promoções</div>
-						</a>
-					</div> -->
 				</div>
 			</div>
 
@@ -331,7 +231,7 @@ get_header();
 							</a>
 						</div>
 						<div class="col-md-4 col-sm-4 col-4">
-							<a href="https://laurenpapelaria.com/produto-tag/promocoes/" title="Super promoção da semana">
+							<a href="https://laurenpapelaria.com/categoria-produto/promocoes/" title="Super promoção da semana">
 								<img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/call-2.png" />
 							</a>
 						</div>
@@ -351,7 +251,7 @@ get_header();
 							</a>
 						</div>
 						<div class="col-md-4 col-sm-4 col-4">
-							<a href="https://laurenpapelaria.com/produto-tag/promocoes/" title="Super promoção da semana">
+							<a href="https://laurenpapelaria.com/categoria-produto/promocoes/" title="Super promoção da semana">
 								<img src="https://laurenpapelaria.com/wp-content/uploads/2022/11/call-2.png" />
 							</a>
 						</div>
@@ -585,20 +485,20 @@ get_header();
 			<?php
 				$args = [
 					'orderby' => 'rand',
-					'limit' => 10,
 					'status' => 'publish',
-					'product_tag' => 'promocoes'
+					'limit' => 10,
+					'category' => 'promocoes'
 				];
 
 				$products = wc_get_products($args);
 
 				if ($products) {
 					foreach ($products as $product) {
-						$priceProduto = $product->price;
-						$regularPriceProduto = $product->regular_price;
+						// $priceProduto = $product->price;
+						// $regularPriceProduto = $product->regular_price;
 
-						$valorDoDesconto = $regularPriceProduto - $priceProduto;
-						$porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
+						// $valorDoDesconto = $regularPriceProduto - $priceProduto;
+						// $porcentagemDoDesconto = (($valorDoDesconto * 100) / $regularPriceProduto);
 						?>
 
 						<div class="col-lg-15 col-15 inner-products">
@@ -607,11 +507,11 @@ get_header();
 									<?php print "<div class='image-product'>" . $product->get_image(['300', '300'], ["class" => "img-responsive"], '') . "</div>"; ?>
 
 									<?php
-										if ($porcentagemDoDesconto > 0) {
-											print "<div class='desconto-product'>";
-											print "-" . wc_format_decimal($porcentagemDoDesconto, 0) . "%";
-											print "</div>";
-										}
+										// if ($porcentagemDoDesconto > 0) {
+										// 	print "<div class='desconto-product'>";
+										// 	print "-" . wc_format_decimal($porcentagemDoDesconto, 0) . "%";
+										// 	print "</div>";
+										// }
 									?>
 									<div class="title-product">
 										<?php
